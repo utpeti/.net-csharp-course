@@ -1,20 +1,26 @@
 ﻿Console.WriteLine("Enter a number!");
 
-int number1 = 0;
+// there's var too :333 hellyea - implic. typed
+
+double number1 = 0;
 
 string userInput = Console.ReadLine();
-number1 = int.Parse(userInput);
+number1 = double.Parse(userInput);
 
 
 Console.WriteLine("Enter a second number!");
 
-int number2 = 0;
+double number2 = 0;
 
 userInput = Console.ReadLine();
-number2 = int.Parse(userInput);
+number2 = double.Parse(userInput);
 
-int sum = number1 + number2;
+double sum = number1 + number2;
 
-Console.WriteLine("The sum of them is: " + sum);
+// concat
+// Console.WriteLine("The sum of them is: " + sum);
+
+// interp
+Console.WriteLine($"The sum of them is {sum}");
 
 Console.ReadKey();
