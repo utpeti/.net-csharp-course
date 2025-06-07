@@ -1,10 +1,4 @@
-﻿namespace ConsoleApp1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("hi");
-        }
-    }
-}
+﻿Console.WriteLine("Enter something");
+string input = Console.ReadLine();
+Console.WriteLine("You entered " + input);
+Console.ReadKey();
