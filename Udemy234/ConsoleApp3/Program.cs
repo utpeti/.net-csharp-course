@@ -23,6 +23,8 @@ class Program
         }
 
         Console.WriteLine($"Average temperature: {CalculateAverage(temperatures)}");
+
+        Console.WriteLine($"Most common condition: {MostCommmonCondition(conditions, weatherConditions)}");
     }
 
     static double CalculateAverage(int[] temperatures)
@@ -34,6 +36,42 @@ class Program
         }
 
         return sum / temperatures.Length;
+    }
+
+    static string MostCommmonCondition(string[] conditions, string[] weatherConditions)
+    {
+        int[] nrOfOccurences = new int[conditions.Length];
+        foreach (var condition in weatherConditions)
+        {
+            switch (condition)
+            {
+                case "Sunny":
+                    ++nrOfOccurences[0];
+                    break;
+                case "Rainy":
+                    ++nrOfOccurences[1];
+                    break;
+                case "Cloudy":
+                    ++nrOfOccurences[2];
+                    break;
+                case "Snowy":
+                    ++nrOfOccurences[3];
+                    break;
+            }
+        }
+
+        int maxInd = 0;
+        int max = 0;
+        for (int i = 0; i < nrOfOccurences.Length; ++i)
+        {
+            if (nrOfOccurences[i] > max)
+            {
+                max = nrOfOccurences[i];
+                maxInd = i;
+            }
+        }
+
+        return conditions[maxInd];
     }
 }
 
