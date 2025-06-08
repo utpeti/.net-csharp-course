@@ -52,3 +52,33 @@ for (int i = 0; i < 20; ++i)
 }
 
 Console.WriteLine("Rocket Landed!");
+
+
+// arrays
+int[] myIntArray = new int[5];
+string[] weekDays = ["mon", "tue", "wen", "..."];
+
+// rest like in cpp
+
+// forEach
+
+foreach (var item in weekDays)
+{
+    Console.WriteLine(item);
+}
+
+// multiple d
+int[,,] my3DArray = new int[3, 3, 3];
+int[,] new2DArray = { { 1, 2 }, { 2, 3 } };
+
+int[,] array = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+
+for (int i = 0; i < 3; ++i)
+{
+    int sum = 0;
+    for (int j = 0; j < 3; ++j)
+    {
+        sum += array[i, j];
+    }
+    Console.WriteLine(sum);
+}
