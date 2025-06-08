@@ -1,0 +1,15 @@
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.deps.json
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.runtimeconfig.json
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.dll
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/bin/Debug/net8.0/ConsoleApp2.pdb
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.AssemblyInfoInputs.cache
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.AssemblyInfo.cs
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.csproj.CoreCompileInputs.cache
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.sourcelink.json
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.dll
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/refint/ConsoleApp2.dll
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.pdb
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ConsoleApp2.genruntimeconfig.cache
+/home/diboti/Documents/dotnet_projs/Udemy2/ConsoleApp2/obj/Debug/net8.0/ref/ConsoleApp2.dll
