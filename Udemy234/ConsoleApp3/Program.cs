@@ -2,25 +2,38 @@
 
 class Program
 {
-    static int myResult;
-
     static void Main(string[] args)
     {
-        int num1 = 1;
-        myResult = AddTwoValues(num1, 10);
+        int days = int.Parse(Console.ReadLine());
 
-        Console.WriteLine(myResult);
+        int[] temperatures = new int[days];
+        string[] conditions = { "Sunny", "Rainy", "Cloudy", "Snowy" };
+        string[] weatherConditions = new string[days];
+
+        Random random = new Random();
+        for (int i = 0; i < days; ++i)
+        {
+            temperatures[i] = random.Next(-10, 40);
+            weatherConditions[i] = conditions[random.Next(conditions.Length)];
+        }
+
+        for (int i = 0; i < days; ++i)
+        {
+            Console.WriteLine($"Temperature: {temperatures[i]}, Condition: {weatherConditions[i]}");
+        }
+
+        Console.WriteLine($"Average temperature: {CalculateAverage(temperatures)}");
     }
 
-    static int AddTwoValues(int value1, int value2)
+    static double CalculateAverage(int[] temperatures)
     {
-        return value1 + value2;
-    }
+        double sum = 0;
+        for (int i = 0; i < temperatures.Length; ++i)
+        {
+            sum += temperatures[i];
+        }
 
-    static int SubtractTwoValues(int value1, int value2)
-    {
-        return value1 - value2;
+        return sum / temperatures.Length;
     }
-
 }
 
