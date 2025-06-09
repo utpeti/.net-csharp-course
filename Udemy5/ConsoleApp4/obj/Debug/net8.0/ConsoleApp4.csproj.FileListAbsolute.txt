@@ -1,0 +1,15 @@
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/bin/Debug/net8.0/ConsoleApp4
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/bin/Debug/net8.0/ConsoleApp4.deps.json
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/bin/Debug/net8.0/ConsoleApp4.runtimeconfig.json
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/bin/Debug/net8.0/ConsoleApp4.dll
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/bin/Debug/net8.0/ConsoleApp4.pdb
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.AssemblyInfoInputs.cache
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.AssemblyInfo.cs
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.csproj.CoreCompileInputs.cache
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.sourcelink.json
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.dll
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/refint/ConsoleApp4.dll
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.pdb
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ConsoleApp4.genruntimeconfig.cache
+/home/diboti/Documents/dotnet_projs/Udemy5/ConsoleApp4/obj/Debug/net8.0/ref/ConsoleApp4.dll
